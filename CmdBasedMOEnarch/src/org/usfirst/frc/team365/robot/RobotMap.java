@@ -25,7 +25,7 @@ public class RobotMap {
     // public static int rangefinderModule = 1;
 	
 	public DriverStation ds;
-	public  CANTalon twistLeftFront = new CANTalon(3);
+	public CANTalon twistLeftFront = new CANTalon(3);
 	public CANTalon twistRightFront = new CANTalon(4);
 	public CANTalon twistLeftRear = new CANTalon(12);
 	public CANTalon twistRightRear = new CANTalon(11);
